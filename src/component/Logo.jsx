@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Logo = ({width = '100px'}) => {
+const Logo = () => {
   return (
-    <div>Logo</div>
+    <img src="/blogger.png" alt="Logo" style={{ maxWidth: '100%', height: 'auto', width: '40px' }} />
   )
 }
 
